@@ -1,0 +1,379 @@
+{
+    "intro": {
+        "text": "You and your team have been trekking through the dense jungle for hours, guided only by the cryptic instructions from the scroll. The jungle is alive with strange sounds—animals calling, leaves rustling, and the occasional flash of light through the thick canopy. \nAs you approach a fork in the path, you stop to consider your options.",
+        "choices": [
+            {
+                "text": "Take the Right Path",
+                "next": "Right"
+            },
+            {
+                "text": "Take the Left Path",
+                "next": "Left"
+            }
+        ]
+    },
+    "Right": {
+        "text": "You follow the right path and soon stumble upon a set of ancient ruins. Moss covers crumbled stone pillars, and broken statues lie scattered about, all bearing the unmistakable markings of Eldaran craftsmanship. In the center of the ruins stands a massive stone door with intricate carvings.",
+        "choices": [
+            {
+                "text": "Investigate the Stone Door",
+                "next": "Investigate"
+            },
+            {
+                "text": "Search the Surrounding Ruins",
+                "next": "Search"
+            }
+        ]
+    },
+    "Left": {
+        "text": "After hacking your way through the thick undergrowth, you reach a stunning waterfall cascading into a crystal-clear pool. Behind the waterfall, you notice the faint outline of a cave entrance. It looks dark and ominous, but the scroll mentioned something about a hidden cave near water.",
+        "choices": [
+            {
+                "text": "Enter the Cave",
+                "next": "Enter"
+            },
+            {
+                "text": "Examine the Waterfall",
+                "next": "Examine"
+            }
+        ]
+    },
+    "Investigate": {
+        "text": "Upon closer inspection, you notice that the carvings on the stone door form a puzzle. There are several rotating pieces, each adorned with symbols that seem to depict elements like fire, water, earth, and air. You must solve the puzzle to open the door.",
+        "choices": [
+            {
+                "text": "Solve the Puzzle",
+                "next": "Solve"
+            },
+            {
+                "text": "Call for Help",
+                "next": "Help"
+            }
+        ]
+    },
+    "Search": {
+        "text": "While searching the ruins, you discover an underground chamber beneath a collapsed pillar. Inside, there are ancient scrolls, pieces of pottery, and what looks like a strange mechanical device.",
+        "choices": [
+            {
+                "text": "Investigate the Mechanical Device",
+                "next": "Inves"
+            },
+            {
+                "text": "Read the Ancient Scrolls",
+                "next": "Read"
+            }
+        ]
+    },
+    "Enter": {
+        "text": "Inside the cave, the air is cold and damp. Strange symbols glow faintly on the walls, and the floor is littered with bones. Deeper inside, you hear a low growling sound, and your flashlight flickers as if responding to the strange energy of the place.",
+        "choices": [
+            {
+                "text": "Move Deeper into the Cave",
+                "next": "Move deeper"
+            },
+            {
+                "text": "Retreat to Safety",
+                "next": "Retreat"
+            }
+        ]
+    },
+    "Examine": {
+        "text": "As you examine the rocks near the waterfall, you find a hidden inscription carved into the stone. It’s written in an ancient language, but with your knowledge of Eldaran script, you manage to translate it: “The way forward lies in the water’s reflection.”",
+        "choices": [
+            {
+                "text": "Dive Into the Pool",
+                "next": "Dive"
+            },
+            {
+                "text": "Use a Mirror to Reflect the Waterfall",
+                "next": "Use Mirror"
+            }
+        ]
+    },
+    "Solve": {
+        "text": "After several minutes of careful manipulation, the puzzle clicks into place. The stone door rumbles open, revealing a vast underground chamber filled with golden statues, intricate murals, and what appears to be the entrance to Eldara itself.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued4a"
+            }
+        ]
+    },
+    "Help": {
+        "text": "With the help of your team, the puzzle is solved more quickly. The door opens, revealing the entrance to the Lost City of Eldara.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued4b"
+            }
+        ]
+    },
+    "Inves": {
+        "text": "You fiddle with the strange device, and after a few minutes, it hums to life. A beam of light projects from it, pointing toward a previously hidden doorway in the ruins. You’ve unlocked a new path to the city.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued4c"
+            }
+        ]
+    },
+    "Read": {
+        "text": "The scrolls reveal a map of Eldara, with notes on its defenses and hidden traps. You now have a distinct advantage in navigating the city’s hidden dangers",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued4d"
+            }
+        ]
+    },
+    "Move deeper": {
+        "text": "As you move deeper into the cave, the growling intensifies. Suddenly, a massive creature leaps out from the shadows, its eyes glowing with rage. You have no choice but to defend yourself.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued4e"
+            }
+        ]
+    },
+    "Retreat": {
+        "text": "You retreat from the cave and explore the waterfall area instead, uncovering an inscription that leads you toward a hidden passage behind the waterfall.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued4f"
+            }
+        ]
+    },
+    "Dive": {
+        "text": "You dive into the pool and find a submerged tunnel leading into a hidden section of the city.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued4g"
+            }
+        ]
+    },
+    "Use Mirror": {
+        "text": "By reflecting the light, a hidden door opens behind the waterfall, revealing a secret passage into the city.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued4h"
+            }
+        ]
+    },
+    "Continued4a": {
+        "text": "After several minutes of careful manipulation, the puzzle clicks into place. The stone door rumbles open, revealing a vast underground chamber filled with golden statues, intricate murals, and what appears to be the entrance to Eldara itself.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued5a"
+            }
+        ]
+    },
+    "Continued4b": {
+        "text": "With the help of your team, the puzzle is solved more quickly. The door opens, revealing the entrance to the Lost City of Eldara.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued5a"
+            }
+        ]
+    },
+    "Continued4c": {
+        "text": "You fiddle with the strange device, and after a few minutes, it hums to life. A beam of light projects from it, pointing toward a previously hidden doorway in the ruins. You’ve unlocked a new path to the city.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued5b"
+            }
+        ]
+    },
+    "Continued4d": {
+        "text": "The scrolls reveal a map of Eldara, with notes on its defenses and hidden traps. You now have a distinct advantage in navigating the city’s hidden dangers.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued5b"
+            }
+        ]
+    },
+    "Continued4e": {
+        "text": "As you move deeper into the cave, the growling intensifies. Suddenly, a massive creature leaps out from the shadows, its eyes glowing with rage. You have no choice but to defend yourself.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued5c"
+            }
+        ]
+    },
+    "Continued4f": {
+        "text": "You retreat from the cave and explore the waterfall area instead, uncovering an inscription that leads you toward a hidden passage behind the waterfall.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued5d"
+            }
+        ]
+    },
+    "Continued4g": {
+        "text": "You dive into the pool and find a submerged tunnel leading into a hidden section of the city.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued5e"
+            }
+        ]
+    },
+    "Continued4h": {
+        "text": "By reflecting the light, a hidden door opens behind the waterfall, revealing a secret passage into the city.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued5e"
+            }
+        ]
+    },
+    "Continued5a": {
+        "text": "The underground chamber is awe-inspiring. Golden statues and intricate murals tell the story of Eldara’s rise and fall. In the centre of the chamber lies the true treasure—a massive crystal that pulses with a strange energy. As you approach it, the ground begins to shake, and the crystal starts to glow brighter.",
+        "choices": [
+            {
+                "text": "Take the Crystal",
+                "next": "Take it"
+            },
+            {
+                "text": "Leave the Crystal",
+                "next": "Leave it"
+            }
+        ]
+    },
+    "Continued5b": {
+        "text": "With the map from the scrolls and the beam from the mechanical device guiding you, you navigate the hidden passageway. It leads directly into the heart of the Lost City. Eldara is real—and untouched by time. The streets are eerily silent, and at the center of the city is a temple holding the ancient artifacts you’ve been seeking.",
+        "choices": [
+            {
+                "text": "Explore the Temple",
+                "next": "Explore temple"
+            },
+            {
+                "text": "Leave the City",
+                "next": "Leave"
+            }
+        ]
+    },
+    "Continued5c": {
+        "text": "The creature lunges at you, its claws sharp and its eyes glowing. Your instincts kick in, and you manage to dodge its first attack. You find a nearby sharp rock and strike at the beast, wounding it enough to send it retreating into the shadows. Bruised but alive, you exit the cave and find a hidden path that leads straight to the outskirts of Eldara. Exhausted, you finally reach the city.",
+        "choices": [
+            {
+                "text": "Continue",
+                "next": "Continued6e"
+            }
+        ]
+    },
+    "Continued5d": {
+        "text": "Behind the waterfall, a hidden passage leads deep into the jungle. You follow it and soon find yourself standing at the edge of a vast underground city—Eldara. As you step into the city, you feel a rush of excitement, but something feels off. It’s too quiet.",
+        "choices": [
+            {
+                "text": "Explore the City",
+                "next": "Explore city"
+            },
+            {
+                "text": "Return to Safety",
+                "next": "Return"
+            }
+        ]
+    },
+    "Continued5e": {
+        "text": "You swim through the underwater tunnel and emerge in a vast underground cavern. The city of Eldara lies before you, gleaming and untouched. As you step forward, the ground trembles. You realize the city is unstable.",
+        "choices": [
+            {
+                "text": "Search for the Treasure",
+                "next": "Search for treasure"
+            },
+            {
+                "text": "Escape the City",
+                "next": "Escape"
+            }
+        ]
+    },
+    "Take it": {
+        "text": "As soon as you touch the crystal, a pulse of energy knocks you back. The ancient curse of Eldara is real! The city begins to collapse around you, and despite your best efforts, you are trapped beneath the rubble. Your greed has sealed your fate.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    },
+    "Leave it": {
+        "text": "As soon as you touch the crystal, a pulse of energy knocks you back. The ancient curse of Eldara is real! The city begins to collapse around you, and despite your best efforts, you are trapped beneath the rubble. Your greed has sealed your fate.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    },
+    "Explore temple": {
+        "text": "Inside the temple, you find artifacts of incredible power—objects capable of controlling the elements and technology far beyond anything modern society has seen. But as you attempt to take them, the city begins to shake. You barely manage to escape, but the treasure is lost as the temple collapses. You leave with only the story of what you saw.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    },
+    "Leave": {
+        "text": "Your instincts were right. As you leave Eldara, the city begins to collapse behind you, as if it were never meant to be disturbed. You make it out just in time, with proof of Eldara’s existence but no treasures. Still, the discovery of the lost city is enough to cement your place in history.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    },
+    "Continued6e": {
+        "text": "Though you survived the beast, Eldara is a haunting sight. Inside the city, you find a single artifact—the heart of the city, a glowing crystal. Knowing the dangers of disturbing it, you carefully record your findings and leave the city intact. You’ll be remembered not for what you took, but for what you preserved.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    },
+    "Explore city": {
+        "text": "As you explore Eldara, strange things begin to happen—shadows move, and eerie sounds fill the air. You realize the city is not just abandoned; it’s haunted. The spirits of the lost civilization are angry, and they won’t let you leave easily. You barely escape with your life, but the horrors of Eldara will haunt you forever.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    },
+    "Return": {
+        "text": "You decide to leave the city behind and return to safety. Though you haven’t explored every corner of Eldara, your discovery is enough to make you famous. Sometimes, the greatest success is knowing when to walk away.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    },
+    "Search for treasure": {
+        "text": "In your quest for the treasure, you ignore the danger signs. As you grab the golden artifacts, the city collapses around you. The treasures of Eldara are yours—but only in your final moments, as the rubble closes in. No one will ever know what you found.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    },
+    "Escape": {
+        "text": "You escape the city just as the ground begins to give way. Eldara collapses into the earth, forever lost to time. Though you didn’t find the treasure, you live to tell the tale, and your discovery will go down in history as one of the greatest archaeological feats.",
+        "choices": [
+            {
+                "text": "THE END",
+                "next": "intro"
+            }
+        ]
+    }
+}

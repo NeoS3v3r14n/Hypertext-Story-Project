@@ -1,0 +1,23 @@
+.background {
+  margin: 0%;
+  color: #D9D9D9;
+  background-image: linear-gradient(#D9D9D9, #272727);
+  height: 100vw;
+  width: 100vw;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+.About-container{
+  margin: 5%;
+  background: #000;
+  padding: 3%;
+  color: #D9D9D9;
+}
+
+.info-container{
+  margin: 5%;
+  background: #000;
+  padding: 3%;
+  color: #D9D9D9;
+}
